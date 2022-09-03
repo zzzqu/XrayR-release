@@ -2,6 +2,7 @@ version: '3'
 services: 
   xrayr: 
     image: zzzshanshan/xrayr:latest
+    container_name: xrayr
     volumes:
       - ./config:/etc/XrayR/ # 映射配置文件夹
     restart: always
